@@ -1,0 +1,601 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* =================================================================nav============================================================= */
+
+
+nav{
+    margin-top: 20px;
+    max-width: 1600px;
+    height: 81px;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+}
+nav .hed{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* background-color:green; */
+    justify-content: space-between;
+}
+nav .hed .orta ul{
+    display: flex;
+    gap: 30px;
+   position: relative;
+   top: 25px;
+  
+}
+nav .hed .orta ul li{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 23.44px;
+
+}
+nav .hed button{
+   width: 161px;
+   height: 52px;
+   background-color: #0082F4;
+   color: white;
+  margin-top: 10px;
+    border-radius: 6px;
+}
+
+
+/* ==================================================menu================================================================== */
+
+
+menu{
+    max-width: 1600px;
+    /* background-color: blue; */
+    
+
+    
+}
+menu .glavniy{
+   margin: auto;
+  /* background-color: grey; */
+  width: 80%;
+  display: flex;
+  gap: 170px;
+}
+menu .glavniy .bir{
+   width: 550px;
+   height: auto;
+   /* background-color: yellow; */
+}
+menu .glavniy .bir h1{
+    font-size: 60.7px;
+    font-weight: 700;
+    font-family: "Roboto";
+    line-height: 78.71px;
+}
+menu .glavniy .bir h3{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 29.3px;
+    letter-spacing: 10%;
+    color: #0080FD;
+    ;
+}
+menu .glavniy .bir p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    line-height: 24px;
+}
+
+menu .glavniy .bir .butem{
+    /* background-color: red; */
+    width: 380px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    
+}
+menu .glavniy .bir .butem button{
+    width: 194px;
+    height: 63px;
+    background-color: #0082F4;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+menu .glavniy .bir .butem .clik{
+    /* background-color: blue; */
+    position: relative;
+    top: 8px;
+    gap: 40px;
+}
+menu .glavniy .bir .butem .clik span{
+   position: relative;
+   top: -8px;
+ 
+   
+}
+
+/* ==================================================================skrin========================================================= */
+
+.skrin{
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+      margin-top: 40px;
+}
+
+.skrin .mein{
+    width: 80%;
+    /* background-color: burlywood; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.skrin .mein .zikr{
+    width: 486px;
+    height: 360px;
+    /* background-color: yellow; */
+    margin-top: auto;
+   padding: auto;
+}
+.skrin .mein .boss{
+    width: 486px;
+    height: 486px;
+}
+.skrin .mein .zikr h4{
+    color: #0082F4;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.skrin .mein .zikr h2{
+    color: #000;
+    font-size: 49px;
+    font-weight: 700;
+    font-family: "Roboto";
+    margin-top: 20px;
+}
+.skrin .mein .zikr p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-top: 20px;
+    line-height: 30px;
+}
+.skrin .mein .zikr button{
+   width: 193px;
+   height: 63px;
+   background-color: #0082F4;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+/* ====================================================like======================================================================== */
+.like{
+    width: 100%;
+    /* background-color: grey; */
+    margin: auto;
+    flex-wrap: wrap;
+      margin-top: 100px;
+}
+.like .mery{
+    max-width: 80%;
+    margin: auto;
+    /* background-color: blue; */
+}
+.like .mery .bitwwin{
+    width: 100%;
+    /* background-color: green; */
+    font-family: "Roboto";
+   font-size: 48.44px;
+    font-weight: 500;
+    line-height: 72.6px;
+}
+.like .mery .bitwwin h2{
+  text-align: center;
+  width: 100%;
+}
+.like .mery .uchlik{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.like .mery .uchlik .ali{
+    width: 324px;
+    /* background-color: chartreuse; */
+    box-sizing: border-box;
+    padding: 10px;
+   justify-content: center;
+
+}
+.like .mery .uchlik .vali{
+    width: 324px;
+    /* background-color:aqua; */
+    box-sizing: border-box;
+    padding: 10px;
+   justify-content: center;
+}
+.like .mery .uchlik .sobit{
+    width: 324px;
+    /* background-color:darkgoldenrod; */
+    box-sizing: border-box;
+    padding: 10px;
+   justify-content: center;
+}
+.like .mery .uchlik .ali img{
+   margin-left: 70px;
+}
+.like .mery .uchlik .ali h4{
+    text-align: center;
+    font-size:28px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 36.4px;
+}
+.like .mery .uchlik .ali p{
+    text-align: center;
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 30px;
+}
+.like .mery .uchlik .vali img{
+    margin-left: 70px;
+ }
+.like .mery .uchlik .vali h4{
+    text-align: center;
+    font-size:28px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 36.4px;
+}
+.like .mery .uchlik .vali p{
+    text-align: center;
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 30px;
+}
+.like .mery .uchlik .sobit img{
+    margin-left: 70px;
+ }
+.like .mery .uchlik .sobit h4{
+    text-align: center;
+    font-size:28px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 36.4px;
+}
+.like .mery .uchlik .sobit p{
+    text-align: center;
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* =================================================================get=========================================================== */
+
+.get{
+    max-width: 100%;
+    /* background-color: chartreuse; */
+    margin-top: 100px;
+}
+.get .hang{
+    max-width: 80%;
+    /* background-color:green; */
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 180px;
+}
+.get   .harf h2{
+    max-width: 80%;
+    /* background-color:grey; */
+    font-size: 48.44px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 72.66px;
+    margin: auto;
+}
+.get   .hang .min .tosiq{
+    width: 63px;
+    height: 283px;
+    background-color: #0082F4;
+}
+.get .hang .min{
+    display: flex;
+    width: 420px;
+    height: 283px;
+    /* background-color: blue; */
+}
+.get .hang .min img{
+    width: 61px;
+    height: 61px;
+    border-radius: 40px;
+    position: relative;
+    top: 120px;
+    right: 30px;
+}
+.get .hang .min .matn .tepa{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 30px;
+}
+.get .hang .min .matn span{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 24px;
+}
+.get .hang .min .matn p{
+    position: relative;
+    top: 40px;
+    /* left: 20px; */
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 24px;
+}
+.get   .hang .rim .tosiq{
+    width: 63px;
+    height: 283px;
+    background-color: #0082F4;
+}
+.get .hang .rim{
+    display: flex;
+    width: 420px;
+    height: 283px;
+    /* background-color: blue; */
+}
+.get .hang .rim img{
+    width: 61px;
+    height: 61px;
+    border-radius: 40px;
+    position: relative;
+    top: 120px;
+    right: 30px;
+}
+.get .hang .rim .matn .tepa{
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 30px;
+}
+.get .hang .rim .matn span{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 24px;
+}
+.get .hang .rim .matn p{
+    position: relative;
+    top: 40px;
+    /* left: 20px; */
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 24px;
+}
+/* =========================================mini============================================================================== */
+.mini{
+    max-width: 100%;
+    /* background-color: chartreuse; */
+    background-color: #E8ECFF4D;
+
+    margin-top: 100px;
+}
+.mini .yet{
+    width: 40%;
+    /* background-color: red; */
+    margin: auto;
+   padding-top: 50px;
+
+}
+.mini .yet h2{
+    text-align: center;
+    font-size: 31.25px;
+    font-family: "Roboto";
+    line-height: 36.62px;
+    font-weight: 500;
+    color: #0082F4;
+}
+.mini .yet h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 20px;
+  
+}
+.mini .yet .old{
+    width: 487px;
+    height: 82px; ;
+    /* background-color: blueviolet; */
+    display: flex;
+    border: 1px solid #0082F4;
+  position: relative;
+  top: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+.mini .yet .old img{
+    width: 32px;
+    height: 25.6px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.mini .yet .old p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.4px;
+    margin-top: 30px;
+    margin-left: 23px;
+    opacity: 60%;
+}
+.mini .yet .old button{
+    width: 102px;
+    height: 52px;
+    color: white;
+    background-color: #0082F4;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+/* ==================================================lp==================================================================== */
+.lp{
+    max-width: 100%;
+   
+    /* background-color: blue; */
+    margin-top: 80px;
+}
+.lp .hot{
+    width: 80%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+}
+.lp .hot .jk{
+    width: 25%;
+    /* background-color: blueviolet; */
+}
+.lp .hot .mol{
+    width: 25%;
+    /* background-color: green; */
+}
+.lp .hot .qoy{
+    width: 25%;
+    /* background-color: grey; */
+}
+.lp .hot .echki{
+    width: 25%;
+    /* background-color:pink; */
+}
+.lp .hot .jk img{
+    width: 69px;
+    height: 69px;
+}
+.lp .hot .jk p{
+    font: size 20px; 
+    font-weight:400 ;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+.lp .hot .mol p{
+    font: size 20px; 
+    font-weight:400 ;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+.lp .hot .mol h2{
+    font: size 25px; 
+    font-weight:500;
+    line-height: 37.5px;
+    font-family: "Roboto";
+}
+.lp .hot .qoy p{
+    font: size 20px; 
+    font-weight:400 ;
+    line-height: 30px;
+    font-family: "Roboto";
+    margin-top: 10px;
+}
+.lp .hot .qoy h2{
+    font: size 25px; 
+    font-weight:500;
+    line-height: 37.5px;
+    font-family: "Roboto";
+}
+.lp .hot .echki h2{
+    font: size 25px; 
+    font-weight:500;
+    line-height: 37.5px;
+    font-family: "Roboto";
+}
+.lp .hot .qoy p{
+    font: size 25px; 
+    font-weight:500;
+    line-height: 37.5px;
+    font-family: "Roboto";
+}
+.lp .hot .echki ul li{
+    font: size 25px; 
+    font-weight:500;
+    line-height: 37.5px;
+    font-family: "Roboto";
+    position: relative;
+    top: 5px;
+    color: #000;
+}
+
+/* ========================================================footer========================================================= */
+
+footer{
+    max-width: 100%;
+    background-color: #0082F4;
+    min-height: 120px;
+}
+footer .minor{
+    width: 80%;
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+footer .minor .bir{
+    /* background-color: chartreuse; */
+    margin-top: 15px;
+    font: size 20px; ;
+    font-family:"Roboto";
+    font-weight:500 ;
+    line-height: 30px;
+    color: white;
+
+}
+footer .minor .ikki{
+    /* background-color: grey; */
+    gap: 20px;
+    display: flex;
+
+}
+footer .minor .ikki button{
+    width: 131px;
+    height: 52px;
+    border-radius:  10px;
+    color: #0082F4;
+
+}
+footer .minor .ikki .toplam{
+    /* background-color:green; */
+   gap: 60px;
+    justify-content: space-between;
+   
+
+}
+footer .minor .ikki .toplam img{
+     margin-top: 7px;
+     gap: 70px;
+}
